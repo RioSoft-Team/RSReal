@@ -15,11 +15,72 @@
  */
  @import 'bootstrap/scss/bootstrap';
 
- .navbar-header {
-    padding-left: 10px;
- }
+.header {
+    margin-top: 0px;
+    position: fixed;
+    width: 100%
+}
 
- .home-image {
-   width: 1116px;
-   border-image: fill;
- }  
+.footer {
+    width: 100%;
+    padding: 20px 0px 20px;
+    background-color: lightgray;
+}
+
+.home {
+   margin-top: 0px;
+}
+
+.navbar-header {
+    padding-left: 10px; 
+}
+
+
+.home-image {
+    width: 100%; /*1116px;*/
+    border-image: fill;
+}  
+
+.section {
+   margin: 0px;
+   padding: 50px 0px 20px;
+}
+
+.section-header {
+   font-size: 46px; /*28px*/
+   text-transform: uppercase;
+   letter-spacing: 1.69px;
+   color: #140744;
+}
+
+.section-text{
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #c59308;
+}
+
+.section-image {
+  width: 100%;
+  border-radius: 5px;  
+  object-fit: fill;
+}  
+
+.section-button {
+  border-radius: 5px;
+  width: 90px;
+  height: 30px;
+  margin: 20px 0px;
+  padding: 10px 20px;
+  background-color: #140744;
+  font-family: Calibri;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  &:visited {
+    color: white;
+  }
+  &:hover {
+    transform: scale( 1.01, 1.01);
+    outline: 1px double rgb(140, 0, 255);
+  }
+}
