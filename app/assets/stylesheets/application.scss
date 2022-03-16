@@ -84,3 +84,36 @@
     outline: 1px double rgb(140, 0, 255);
   }
 }
+
+
+.float-footer {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  background-color: transparent;
+  padding: 0px;
+  text-align: right;
+  text-size-adjust: 12px;
+  .float-footer-image {
+      padding: 0px;
+      display: flex;
+      float: right;
+      justify-content: right;
+      align-items: right;
+      li {
+          margin: 0px;
+          image {
+              margin: 0px;
+          }
+      }
+  }
+}
+
+.float-footer-image {
+  padding: 0px;
+  display: flex;
+  float: right;
+  justify-content: right;
+  align-items: right;
+}
+
