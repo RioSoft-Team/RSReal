@@ -18,7 +18,8 @@
 .header {
     margin-top: 0px;
     position: fixed;
-    width: 100%
+    width: 100%;
+    background-color: lightgray;
 }
 
 .footer {
@@ -28,13 +29,16 @@
 }
 
 .home {
-   margin-top: 0px;
+    margin-top: 0px;
 }
 
 .navbar-header {
     padding-left: 10px; 
 }
 
+.nav-item {
+    padding-left: 10px;
+}
 
 .home-image {
     width: 100%;
@@ -56,7 +60,8 @@
 .section-text{
   margin-bottom: 10px;
   font-size: 15px;
-  color: #c59308;
+  text-align: justify;
+  color: black;
 }
 
 .section-image {
