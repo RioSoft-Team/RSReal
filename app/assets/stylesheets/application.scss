@@ -41,8 +41,9 @@
 }
 
 .home-image {
-    width: 100%;
-    border-image: fill;
+    width: 100%;  
+    height: 640px;
+    object-fit: cover;
 }  
 
 .section {
@@ -65,9 +66,11 @@
 }
 
 .section-image {
+  padding: 20px 0px;
   width: 100%;
+  height: 540px;
   border-radius: 5px;  
-  object-fit: fill;
+  object-fit: cover;
 }  
 
 .section-button {
