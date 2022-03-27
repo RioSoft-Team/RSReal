@@ -23,7 +23,7 @@ default: &default
 
 development:
   <<: *default
-  database: rsreal_development
+  database: rsreal
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -79,8 +79,8 @@ test:
 # Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
 # for a full overview on how database connection configuration can be specified.
 #
-production:
-  <<: *default
-  database: rsreal_production
-  username: rsreal
-  password: <%= ENV['RSREAL_DATABASE_PASSWORD'] %>
+#production:
+#  <<: *default
+#  database: rsreal_production
+#  username: rsreal
+#  password: <%= ENV['RSREAL_DATABASE_PASSWORD'] %>
